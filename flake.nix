@@ -1,5 +1,8 @@
 {
-  inputs = { hspkgs.url = "github:podenv/hspkgs"; };
+  inputs = {
+    hspkgs.url =
+      "github:podenv/hspkgs/cd711c5967c1313b6f91d1d40c7d68bfd561cfbe";
+  };
 
   outputs = { self, hspkgs }:
     let
